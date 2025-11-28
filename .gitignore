@@ -1,0 +1,54 @@
+# =========================
+# IGNORAR NODE_MODULES
+# =========================
+node_modules/
+
+# =========================
+# EXPO / REACT NATIVE COISAS (APENAS DO FRONTEND)
+# =========================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# =========================
+# ARQUIVOS TEMPORÁRIOS / LIXOS
+# =========================
+.npm/
+.npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# MACOS
+# =========================
+.DS_Store
+
+# =========================
+# TYPESCRIPT (SE TIVER)
+# =========================
+*.tsbuildinfo
+
+# =========================
+# ANDROID / IOS (NATIVOS — APENAS DO APP)
+# =========================
+/android
+/ios
+
+# =========================
+# CHAVES / PROVISÕES (CASO USE)
+# =========================
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# =========================
+# NÃO IGNORAR O BANCO SQLITE
+# NÃO IGNORAR database.sqlite
+# =========================
+
+# Permitir explicitamente o arquivo do banco
+!database.sqlite
